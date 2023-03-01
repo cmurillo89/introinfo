@@ -84,3 +84,17 @@ solution = "low"
 
 print(my_answer == solution)
 print(my_answer != solution)
+
+# Ejercicio de medidor de frecuencia cardiaca, usando comparaciones para verificar si la frecuencia cardiaca es demasiada baja o alta y le diremos al paciente si debe preocuparse.
+print("------------------------------")
+
+heart_rate = 177
+
+too_low = heart_rate < 60
+too_high = heart_rate > 100
+
+print("Heart rate low?")
+print(too_low)
+
+print("Heart rate high?")
+print(too_high)
