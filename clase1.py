@@ -98,3 +98,33 @@ print(too_low)
 
 print("Heart rate high?")
 print(too_high)
+
+num1 = 25
+num2 = 30
+result = num1 - num2
+print(result)
+
+print("------------------------------")
+
+edad = 17
+resultado = edad >= 18
+print("Es mayor de edad?")
+print(resultado)
+
+print("------------------------------")
+
+# Usemos comparaciones de string para etiquetar los datos adquiridos a través de la encuesta de usuarios de una aplicación de fitness.
+# Verificamos las respuestas de la encuesta de los usuaios con respcto a la frecuencia e intensidad de la actividad, las etiquetaremos y mostraremos los resultados.
+
+frecuencia = "Diaria"
+intensidad = "Alta"
+
+activo = frecuencia == "Diaria"
+print("El usuario es activo?")
+print(activo)
+
+intenso = intensidad == "Alta"
+print("El usuario es intenso?")
+print(intenso)
+
+print(f"La edad de Christopher es: {edad} y su apellido es Murillo, la intensidad de ejercicio es: {intensidad} y la frecuencia es {frecuencia}")
