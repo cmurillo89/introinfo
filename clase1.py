@@ -128,3 +128,9 @@ print("El usuario es intenso?")
 print(intenso)
 
 print(f"La edad de Christopher es: {edad} y su apellido es Murillo, la intensidad de ejercicio es: {intensidad} y la frecuencia es {frecuencia}")
+
+
+# Los programas inteligentes usan booleanos para tomar decisiones sobre si ejecutar lineas de codigo u omitirlas
+
+if True:
+    print("Hola")
